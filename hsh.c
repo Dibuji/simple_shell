@@ -100,7 +100,7 @@ int main(int ac, char *av[])
 			if_exit = 1;
 		}
 		else if (ctx.buf.ptr != NULL)
-				if_exit = evaluate(&ctx);
+			if_exit = evaluate(&ctx);
 	} while (!if_exit);
 	free_ctx(&ctx);
 	fclose(stream);
